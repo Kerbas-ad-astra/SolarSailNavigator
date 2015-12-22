@@ -189,6 +189,7 @@ Currently need to manually click "Set to Now"
 *** Is that orbit.UTsoi?
 * TODO Make sail deployment a staged event that can only happen once :WISHLIST:
 * TODO Automatic navigation				   :FEATURE:WISHLIST:
+** http://strathprints.strath.ac.uk/6621/
 ** Using manual navigation as initial guess, perform local optimization (e.g. gradient) to calculate cones/clocks/durations
 ** Orbital rendezvous
 *** Select target
@@ -227,7 +228,7 @@ trajectory.
 * TODO In preview, use alignment of sails and engines - don't just assume they are aligned in the correct direction with the "up" vector. [0/2] :BUG:
 ** TODO Examine part.transform.up vector and compare to calculated thrust vector
 ** TODO Use as thrust direction vector
-* TODO Preview doesn't detect if another body's SOI will be entered on the current trajectory [0/2] :BUG:
+* TODO Preview doesn't detect if another body's SOI will be entered on the current trajectory [0/2] :BUG:FEATURE:
 ** TODO Detect SOI intersection
 ** TODO Propagate trajectory around body's SOI?
 * TODO Recalculate target line & error when new target selected		:BUG:
@@ -245,3 +246,4 @@ Toggle "Show Preview" to redraw
 * TODO "Add" or "INS" buttons should copy values from last (Add) or selected (INS) control [0/2] :FEATURE:
 ** TODO When "Add" clicked, copy values from last control
 ** TODO When "INS" clicked, copy valued from the corresponding control
+* TODO After adding or inserting a new control, clicking the frame button creates an empty window. Quiting to the space center and clicking the frame button works as usual. :BUG:
